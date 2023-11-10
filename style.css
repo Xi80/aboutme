@@ -25,5 +25,6 @@ span[data-tooltip] {
 }
 
 .background img {
+    width: 100%;
     object-fit: cover;
 }
