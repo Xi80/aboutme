@@ -6,13 +6,8 @@ html, body, .background, .overlay {
 
 body {
     background-color: rgb(60, 60, 100);
-    font-family: 'Inria Sans', sans-serif;
     display: flex;
     align-items: center;
-}
-
-span[data-tooltip] {
-    border-bottom: 0;
 }
 
 .background, .overlay {
@@ -21,7 +16,7 @@ span[data-tooltip] {
 }
 
 .overlay {
-    background-color: rgb(60, 60, 100, 0.50);
+    background-color: rgb(60, 60, 100, 0.30);
 }
 
 .background img {
