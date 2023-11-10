@@ -1,0 +1,29 @@
+html, body, .background, .overlay {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgb(60, 60, 100);
+    font-family: 'Inria Sans', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+span[data-tooltip] {
+    border-bottom: 0;
+}
+
+.background, .overlay {
+    position: absolute;
+    display: flex;
+}
+
+.overlay {
+    background-color: rgb(60, 60, 100, 0.50);
+}
+
+.background img {
+    object-fit: cover;
+}
